@@ -1,0 +1,11 @@
+pip install sympy
+pip install scipy
+pip install pytest-timeit
+pip install random2
+pip install openpyxl
+pip install trimesh
+pip install numpy
+pip install pandas
+pip install h5py
+pip install math
+pip install numpy-stl
