@@ -4,9 +4,9 @@ Based on the "Force Closure" idea, the algorithm intends to find the optimum gra
 
 ## How it works
 1. Import 3D object (stl or obj file)
-2. Find possible grasp points (center of each mesh) and their wrench values in matrix form
+2. Find possible grasp points (center of each mesh) and their wrench values in the matrix form
 3. Make GWS (grasp wrench space)
-4. Find the best grasp (grasp with largest grasp quality)
+4. Find the best grasp (grasp of the largest grasp quality)
 
 
 ## Brief explanation of each code
