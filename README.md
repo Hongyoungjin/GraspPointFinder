@@ -9,7 +9,7 @@ Based on the "Force Closure" idea, the algorithm intends to find the optimum gra
 4. Find the best grasp (grasp with largest grasp quality)
 
 
-## Brief function of each code
+## Brief explanation of each code
 1. "gws_to_cone.py" : From 3D object, makes GWS data, and 3D object attached with friction cones of all possible grasp points
 2. "searchall.py"   : Finds the best grasp among all possible grasp candidates - Most accurate, yet takes too much time
 3. "gpsearch.py"    : Finds the locally best grasp through regressively updating the grasp  - Quicker, yet less accurate (80% accurrate on average)
