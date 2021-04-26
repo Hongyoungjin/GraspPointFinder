@@ -2,14 +2,23 @@
 Based on the "Force Closure" idea, the algorithm intends to find the optimum grasp point based on virtual 3D object.
 
 
-### How it works
+## How it works
 1. Import 3D object (stl or obj file)
 2. Find possible grasp points (center of each mesh) and their wrench values in matrix form
 3. Make GWS (grasp wrench space)
 4. Find the best grasp (grasp with largest grasp quality)
 
 
-### How to use
+## Brief function of each code
 1. "gws_to_cone.py" : From 3D object, makes GWS data, and 3D object attached with friction cones of all possible grasp points
 2. "searchall.py"   : Finds the best grasp among all possible grasp candidates - Most accurate, yet takes too much time
 3. "gpsearch.py"    : Finds the locally best grasp through regressively updating the grasp  - Quicker, yet less accurate (80% accurrate on average)
+
+## How to execute:
+### If you want to find the accurate data taking a lot of time
+1. gws_to_cone.py
+2. searchall.py
+
+### If you want to find the less accurate data within short period of time
+1. gws_to_cone.py
+2. gpsearch.py
